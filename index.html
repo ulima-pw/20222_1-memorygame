@@ -2,94 +2,98 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-        <script src="./memoria.js"></script>
+        
     </head>
     <body class="container">
-        <h1>Memoria Game</h1>
+        <h1 id="titulo">Memoria Game</h1>
         <div class="row mb-4" style="height: 100px;">
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="0_0" type="button" class="btn btn-warning fs-1" 
+                    style="height: 100%; width: 100%;"
+                    onclick="casillaOnClick(0, 0)">
+                    &#129409;
+                </button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="0_1" onclick="casillaOnClick(0, 0)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="0_2" onclick="casillaOnClick(0, 2)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="0_3" onclick="casillaOnClick(0, 3)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
         </div>
         <div class="row mb-4" style="height: 100px;">
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="1_0" onclick="casillaOnClick(1, 0)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="1_1" onclick="casillaOnClick(1, 1)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="1_2" onclick="casillaOnClick(1, 2)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="1_3" onclick="casillaOnClick(1, 3)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
         </div>
         <div class="row mb-4" style="height: 100px;">
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="2_0" onclick="casillaOnClick(2, 0)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="2_1" onclick="casillaOnClick(2, 1)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="2_2" onclick="casillaOnClick(2, 2)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="2_3" onclick="casillaOnClick(2, 3)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
         </div>
         <div class="row mb-4" style="height: 100px;">
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="3_0" onclick="casillaOnClick(3, 0)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="3_1" onclick="casillaOnClick(3, 1)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="3_2" onclick="casillaOnClick(3, 2)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="3_3" onclick="casillaOnClick(3, 3)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
         </div>
         <div class="row mb-4" style="height: 100px;">
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="4_0" onclick="casillaOnClick(4, 0)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="4_1" onclick="casillaOnClick(4, 1)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="4_2" onclick="casillaOnClick(4, 2)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="4_3" onclick="casillaOnClick(4, 3)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
         </div>
         <div class="row mb-4" style="height: 100px;">
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="5_0" onclick="casillaOnClick(5, 0)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="5_1" onclick="casillaOnClick(5, 1)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="5_2" onclick="casillaOnClick(5, 2)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
             <div class="col" style="height: 100%;">
-                <button type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
+                <button id="5_3" onclick="casillaOnClick(5, 3)" type="button" class="btn btn-warning fs-1" style="height: 100%; width: 100%;">&#129409;</button>
             </div>
         </div>
-        
+        <script src="./memoria.js"></script>
     </body>
 </html>
